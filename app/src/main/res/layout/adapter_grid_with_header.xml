@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="115dp"
+        app:cardCornerRadius="0dp"
+        android:elevation="3dp"
+        android:layout_height="115dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/vL_ads_layout"
+            android:background="@color/teal"
+            android:orientation="vertical">
+
+
+         <ImageView
+          android:layout_width="35dp"
+          android:layout_height="35dp"
+          android:gravity="start"
+          android:layout_marginTop="5dp"
+          android:layout_marginLeft="10dp"
+             android:layout_marginBottom="5dp"
+             android:background="@drawable/home"
+          android:id="@+id/vI_ads_schemeImage"
+       />
+
+        <TextView
+            android:id="@+id/vT_ads_schemeName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:text="Hello"
+           />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>

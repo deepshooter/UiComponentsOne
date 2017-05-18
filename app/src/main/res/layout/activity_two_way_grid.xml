@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_two_way_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/toolbar"/>
+
+    <com.deepshooter.uicomponentsone.TwowayGrid.TwoWayGridView
+
+        android:id="@+id/two_way_list"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        app:gravity="center"
+        android:layout_gravity="center"
+        app:horizontalSpacing="5dp"
+        app:numColumns="auto_fit"
+        app:numRows="1"
+        app:rowHeight="100dp"
+        app:scrollDirectionLandscape="horizontal"
+        app:scrollDirectionPortrait="horizontal"
+        app:stretchMode="columnWidth"
+        app:verticalSpacing="1dp">
+
+
+    </com.deepshooter.uicomponentsone.TwowayGrid.TwoWayGridView>
+
+</LinearLayout>

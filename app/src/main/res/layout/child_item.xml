@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_transparent_two"
+
+    android:orientation="horizontal">
+
+       <ImageView
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+         android:background="@drawable/hair_look"
+         android:layout_marginLeft="15dp"
+      android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/textview2"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:textSize="18sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25sp"
+        android:textColor="@color/white"
+        android:text="Sub Item"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/textview3"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Rs "/>
+
+</LinearLayout>
+
+    <View
+        android:id="@+id/view_main"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#0fff"
+        />
+
+</LinearLayout>
